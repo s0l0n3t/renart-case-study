@@ -1,0 +1,38 @@
+2025-07-08T07:22:46.678+03:00  INFO 1300 --- [renart-backend] [main] c.f.r.RenartBackendApplication           : Starting RenartBackendApplication v0.0.1-SNAPSHOT using Java 22.0.2 with PID 1300 (C:\Dosyalarım\renart-case-study\backend\renart-backend\target\renart-backend-0.0.1-SNAPSHOT.jar started by Administrator in C:\Dosyalarım\renart-case-study\backend\renart-backend\target)
+2025-07-08T07:22:46.680+03:00  INFO 1300 --- [renart-backend] [main] c.f.r.RenartBackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T07:22:47.132+03:00  INFO 1300 --- [renart-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08T07:22:47.166+03:00  INFO 1300 --- [renart-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-07-08T07:22:47.494+03:00  INFO 1300 --- [renart-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8180 (http)
+2025-07-08T07:22:47.505+03:00  INFO 1300 --- [renart-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T07:22:47.505+03:00  INFO 1300 --- [renart-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T07:22:47.527+03:00  INFO 1300 --- [renart-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T07:22:47.527+03:00  INFO 1300 --- [renart-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 818 ms
+2025-07-08T07:22:47.639+03:00  INFO 1300 --- [renart-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08T07:22:47.681+03:00  INFO 1300 --- [renart-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-08T07:22:47.698+03:00  INFO 1300 --- [renart-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-08T07:22:47.854+03:00  INFO 1300 --- [renart-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08T07:22:47.877+03:00  INFO 1300 --- [renart-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-08T07:22:47.953+03:00  INFO 1300 --- [renart-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a3ad8e7
+2025-07-08T07:22:47.954+03:00  INFO 1300 --- [renart-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-08T07:22:47.972+03:00  WARN 1300 --- [renart-backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-08T07:22:47.982+03:00  INFO 1300 --- [renart-backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-08T07:22:48.388+03:00  INFO 1300 --- [renart-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08T07:22:48.390+03:00  INFO 1300 --- [renart-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08T07:22:48.598+03:00  WARN 1300 --- [renart-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08T07:22:48.980+03:00  INFO 1300 --- [renart-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8180 (http) with context path '/'
+2025-07-08T07:22:48.985+03:00  INFO 1300 --- [renart-backend] [main] c.f.r.RenartBackendApplication           : Started RenartBackendApplication in 2.677 seconds (process running for 3.007)
+2025-07-08T07:22:58.908+03:00  INFO 1300 --- [renart-backend] [http-nio-8180-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08T07:22:58.908+03:00  INFO 1300 --- [renart-backend] [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-08T07:22:58.909+03:00  INFO 1300 --- [renart-backend] [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-08T07:23:09.661+03:00  INFO 1300 --- [renart-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08T07:23:09.665+03:00  INFO 1300 --- [renart-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-08T07:23:09.667+03:00  INFO 1300 --- [renart-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08T07:23:09.668+03:00  INFO 1300 --- [renart-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-08T07:23:09.670+03:00  INFO 1300 --- [renart-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
