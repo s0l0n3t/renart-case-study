@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowProps } from 'react-slick';
 
 interface ArrowProps {
   onClick?: () => void;
