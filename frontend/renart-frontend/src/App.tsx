@@ -1,5 +1,5 @@
 import { useRef, useState, useCallback, useEffect } from 'react';
-import Slider, { Settings } from 'react-slick';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { NextArrow, PrevArrow } from './components/CustomArrows';
@@ -18,6 +18,7 @@ interface Product {
 }
 
 function App() {
+  //@ts-ignore
   const sliderRef = useRef<Slider>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
@@ -144,7 +145,7 @@ function App() {
   };
 
   const thumbWidth = Math.min(100 / products.length * 4, 20);
-
+//@ts-ignore
   const settings: Settings = {
     dots: false,
     infinite: false,
