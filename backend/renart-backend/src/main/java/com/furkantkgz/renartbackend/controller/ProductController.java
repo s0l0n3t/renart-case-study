@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin(origins = "http://signalseek.xyz:8180")
 @RestController
 @RequestMapping("/prod")
 public class ProductController {
